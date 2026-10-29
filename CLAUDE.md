@@ -1,4 +1,4 @@
-# Primeiros Acordes — contexto para o Claude Code
+# Rodinha — contexto para o Claude Code
 
 PWA para iniciante absoluta no violão (esposa do João). Ela nunca tocou; gosta de louvor
 moderno, sertanejo universitário, pop rock nacional. Quer tocar e cantar junto.
@@ -22,5 +22,5 @@ Irmão do projeto `../guitar-lab` (de onde vieram o motor musical, áudio, PWA e
 
 ## Publicação
 Todo push na `main` roda testes + build e publica no GitHub Pages
-(`.github/workflows/deploy.yml`): https://arquitetojg-sudo.github.io/primeiros-acordes/
+(`.github/workflows/deploy.yml`): https://arquitetojg-sudo.github.io/rodinha/
 `gh` em `%LOCALAPPDATA%\Microsoft\WinGet\Links\gh.exe` (conta arquitetojg-sudo).

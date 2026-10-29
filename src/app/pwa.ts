@@ -92,5 +92,5 @@ export function installInstructions(): { platform: string; steps: string[] } {
   if (/Firefox/.test(ua)) return { platform: 'Firefox no computador', steps: ['O Firefox para computador não instala PWAs. Use Chrome ou Edge, ou mantenha o app numa aba fixada.'] };
   if (/SamsungBrowser/.test(ua)) return { platform: 'Samsung Internet', steps: ['Toque no ícone de download na barra de endereço, ou menu → "Adicionar página a" → "Tela inicial".'] };
   if (/Android/.test(ua)) return { platform: 'Chrome no Android', steps: ['Toque no menu (⋮).', 'Escolha "Instalar app" ou "Adicionar à tela inicial".'] };
-  return { platform: 'Chrome / Edge no computador', steps: ['Clique no ícone de instalação na barra de endereço (monitor com seta), ou menu → "Instalar Primeiros Acordes".'] };
+  return { platform: 'Chrome / Edge no computador', steps: ['Clique no ícone de instalação na barra de endereço (monitor com seta), ou menu → "Instalar Rodinha".'] };
 }

@@ -42,7 +42,7 @@ export function App() {
       <main className="main" id="conteudo">
         <div className="topbar">
           <a className="brand" href={href('/')}>
-            <img src="./icons/icon-192.png" alt="" /> Primeiros Acordes
+            <img src="./icons/icon-192.png" alt="" /> Rodinha
           </a>
         </div>
         <div className="stack" style={{ marginBottom: 16 }}>

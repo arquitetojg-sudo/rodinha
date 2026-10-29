@@ -16,7 +16,7 @@ export interface Data {
   minutes: Record<string, number>;
 }
 
-const KEY = 'primeiros-acordes:v1';
+const KEY = 'rodinha:v1';
 const DEFAULT: Data = { done: {}, checks: {}, bpm: 60, click: true, strumSound: true, minutes: {} };
 
 function load(): Data {
